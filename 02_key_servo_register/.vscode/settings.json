@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "tim2.h": "c",
+        "includes.h": "c",
+        "key.h": "c",
+        "delay.h": "c",
+        "stm32f10x.h": "c"
+    }
+}
