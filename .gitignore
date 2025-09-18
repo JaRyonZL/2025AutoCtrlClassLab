@@ -1,6 +1,7 @@
+# 忽略 Keil 工程的用户配置文件
 Listings/
 Objects/
-# 忽略 Keil 工程的用户配置文件
+DebugConfig/
 *.uvguix.*
 *.uvoptx
 *.uvprojx
