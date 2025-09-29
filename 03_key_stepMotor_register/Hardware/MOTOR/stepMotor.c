@@ -40,7 +40,7 @@ void STEPMOTOR_Init(void)
 // dir: 1=正转, 0=反转; angle: 转动角度
 void STEPMOTOR_Run(uint8_t dir, float angle)
 {
-    // 28BYJ-48实际每圈需要4096步（8拍×512减速比）
+    // 28BYJ-48实际每圈需要4096步（360/5.625=64 *64=4096）
     // 90度 = 4096 / 4 = 1024步
     uint16_t totalSteps = (uint16_t)(angle * 4096 / 360);
 
