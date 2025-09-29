@@ -4,12 +4,6 @@
  * @version: 
  * @Date: 2025-09-21 11:45:26
  */
-/*
- * @Descripttion:
- * @Author: JaRyon
- * @version:
- * @Date: 2025-09-21 11:45:26
- */
 // FileName: main.c
 
 #include "includes.h"
